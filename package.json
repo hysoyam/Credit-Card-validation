@@ -1,0 +1,47 @@
+{
+  "name": "19-module-classwork",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./",
+    "lint:report": "eslint ./",
+    "dev": "webpack serve --config config/webpack.dev.js",
+    "build": "webpack --config config/webpack.prod.js"
+  },
+  "private": true,
+  "type": "module",
+  "author": "Nikita",
+  "license": "ISC",
+  "dependencies": {
+    "card-validator": "^8.1.1",
+    "cleave.js": "^1.6.0",
+    "crelt": "^1.0.5",
+    "maska": "^1.5.0",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "eslint": "^7.15.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-formatter-gitlab": "^2.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "html-webpack-plugin": "^5.5.0",
+    "image-minimizer-webpack-plugin": "^3.2.3",
+    "imagemin": "^8.0.1",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-svgo": "^10.0.1",
+    "mini-css-extract-plugin": "^2.6.0",
+    "sass": "^1.51.0",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "terser-webpack-plugin": "^5.3.1",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  }
+}
